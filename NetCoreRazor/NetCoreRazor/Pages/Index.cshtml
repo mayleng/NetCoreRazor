@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+   
+    <p>@ViewData["Title"]</p>
+    <p>参数a: @Model.Aparems</p>
+  
+    <!--
+    <a href="/Mysql">Mysql数据库测试</a> 
+    <a href="/Sqlserver">Sqlserver数据库测试</a>
+    <a href="/Postgresql">Postgresql数据库测试</a>
+    -->
+    <input id="Button1" type="button" value="Mysql数据库测试" onclick="location.href='/Mysql'" />&nbsp;&nbsp;
+    <input id="Button2" type="button" value="Sqlserver数据库测试" onclick="location.href='/Sqlserver'" />&nbsp;&nbsp;
+    <input id="Button3" type="button" value="Postgresql数据库测试" onclick="location.href='/Postgresql'" />&nbsp;&nbsp;
+   
+
+    <br />
+    <p></p>
+    <a href="/Test">Test</a>  &nbsp;
+   
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+   
+</div>
+

@@ -1,0 +1,60 @@
+﻿@page
+@model NetCoreRazor.Pages.TestModel
+
+@{
+    ViewData["Title"] = "Test";
+}
+
+<p>@ViewData["Title"]</p>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<form  method="post"  >
+    <table cellpadding="0" cellspacing="5" border="0">
+        <tr>
+            <th>账号：</th>
+            <td><input type="text" name="account"></td>
+        </tr>
+        <tr>
+            <th>密码：</th>
+            <td><input type="password" name="password"></td>
+        </tr>
+       <tr>
+        <td>
+            <input type="submit" value="确定">
+            <input type="reset" value="取消">
+        </td></tr>
+    </table>
+</form>
+<p>账号：@Model.UserName 密码：@Model.Passwd</p>
+
+
+<a asp-page="/Index">1</a>
+<a asp-page="/Index?a=1&b=12" >2</a>
+<a asp-route="/Index.cshtml">3</a> <br />
+
+
+
+<form method="get" asp-page-handler="Index" asp-route-Aparms="12" asp-page="/Index">
+    <input id="Submit1" type="submit" value="请求Index页面" />
+</form>
+
+<input id="Button1" type="button" value="弹出框" onclick="alert('hello world')" /><br/><br/>
+<input id="Button1" type="button" value="返回" onclick="location.href='/Index'" />
+<h4>Msg: @Model.Message</h4>
+@*引用CS文件中定义的变量*@
+
+@{ 
+    var weekDay = DateTime.Now.DayOfWeek;
+}
+
+<p>Today is: @weekDay</p>
+
+@for (var i = 10; i < 16; i++)
+{
+    <p style="font-size: @(i + "pt")">My font size is now: @i</p>
+}
+
+<img  src="~/images/38.jpg" alt="scenery picture">

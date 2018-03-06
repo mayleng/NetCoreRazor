@@ -1,0 +1,12 @@
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=NetCoreRazor
+--content-root=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\Error.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\Index.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\Mysql.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\Postgresql.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\Sqlserver.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\Test.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\Pages\_ViewImports.cshtml

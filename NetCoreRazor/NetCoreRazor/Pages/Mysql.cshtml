@@ -1,0 +1,22 @@
+﻿@page
+@model NetCoreRazor.Pages.MysqlModel
+@{
+    ViewData["Title"] = "Mysql";
+}
+
+<h2>Mysql</h2>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<p>@Model.CreateMessege</p>
+<p>@Model.InsertMessege</p>
+<p>@Model.SearchMessege</p>
+<p>@Model.UpdateMessege</p>
+<p>@Model.DeleteMessege</p>
+<p>@Model.DelTabMessege</p>
+
+<br/>
+<br/>
+<input id="Button1" type="button" value="返回" onclick="location.href='/Index'" />

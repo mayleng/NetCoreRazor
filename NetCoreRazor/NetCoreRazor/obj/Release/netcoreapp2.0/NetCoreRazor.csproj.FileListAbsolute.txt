@@ -1,0 +1,11 @@
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\bin\Release\netcoreapp2.0\NetCoreRazor.deps.json
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\bin\Release\netcoreapp2.0\NetCoreRazor.runtimeconfig.json
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\bin\Release\netcoreapp2.0\NetCoreRazor.runtimeconfig.dev.json
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\bin\Release\netcoreapp2.0\NetCoreRazor.dll
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\bin\Release\netcoreapp2.0\NetCoreRazor.pdb
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\obj\Release\netcoreapp2.0\NetCoreRazor.csprojResolveAssemblyReference.cache
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\obj\Release\netcoreapp2.0\NetCoreRazor.csproj.CoreCompileInputs.cache
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\obj\Release\netcoreapp2.0\NetCoreRazor.AssemblyInfoInputs.cache
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\obj\Release\netcoreapp2.0\NetCoreRazor.AssemblyInfo.cs
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\obj\Release\netcoreapp2.0\NetCoreRazor.dll
+C:\Users\bonree\Desktop\webapi\NetCoreRazor\NetCoreRazor\obj\Release\netcoreapp2.0\NetCoreRazor.pdb
